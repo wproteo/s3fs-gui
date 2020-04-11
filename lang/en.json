@@ -1,0 +1,20 @@
+{
+    "title": "S3FS GUI - Mount/Unmount Buckets",
+    "mount_bucket": "Mount Bucket",
+    "unmount_bucket": "Unmount Bucket",
+    "hostname": "Hostname",
+    "access_key": "Access key",
+    "secret_key": "Secret key",
+    "bucket": "Bucket",
+    "select_bucket": "Select Bucket",
+    "delete": "Delete",
+    "delete_dialog": "Do you want to remove this bucket?\nThis action cannot be undone",
+    "cancel": "Cancel",
+    "msg_mounted": "Mounted Bucket",
+    "msg_unmounted": "Unmounted Bucket",
+    "msg_no_selection": "Nothing Selected",
+    "msg_created": "Bucket Created",
+    "msg_updated": "Bucket Updated",
+    "msg_deleted": "Bucket Deleted",
+    "msg_fields": "All fields are required !!"
+}

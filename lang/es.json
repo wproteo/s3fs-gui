@@ -1,0 +1,20 @@
+{
+    "title": "S3FS GUI - Montar/Desmontar Buckets",
+    "mount_bucket": "Montar Bucket",
+    "unmount_bucket": "Desmontar Bucket",
+    "hostname": "Nombre del host",
+    "access_key": "Clave de acceso",
+    "secret_key": "Clave secreta",
+    "bucket": "Bucket",
+    "select_bucket": "Seleccionar Bucket",
+    "delete": "Eliminar",
+    "delete_dialog": "¿Desea elimiar este bucket?\nEsta acción no se puede deshacer",
+    "cancel": "Cancelar",
+    "msg_mounted": "Bucket montado",
+    "msg_unmounted": "Bucket desmontado",
+    "msg_no_selection": "Nada Seleccionado",
+    "msg_created": "Bucket Creado",
+    "msg_updated": "Bucket Actualizado",
+    "msg_deleted": "Bucket Eliminado",
+    "msg_fields": "Todos los campos son obligatorios !!"
+}
