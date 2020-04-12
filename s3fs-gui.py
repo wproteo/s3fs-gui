@@ -51,7 +51,6 @@ class Handler:
     """Class to interact with the user interface"""
     def on_mount_clicked(self, button):
         """Mount button click"""
-        global select_bucket
         bucket = int(select_bucket.get_active_id())
 
         if bucket > 0:
@@ -83,7 +82,6 @@ class Handler:
         print(status_msg)
 
     def on_unmount_clicked(self, button):
-        global select_bucket
         bucket = int(select_bucket.get_active_id())
 
         if bucket > 0:
@@ -112,7 +110,6 @@ class Handler:
         builder.get_object("bucket").set_text("")
 
     def on_edit_clicked(self, button):
-        global select_bucket
         bucket = int(select_bucket.get_active_id())
 
         if bucket > 0:
@@ -156,7 +153,6 @@ class Handler:
             set_status(lang['msg_fields'])
 
     def on_delete_clicked(self, button):
-        global select_bucket
         bucket = int(select_bucket.get_active_id())
         if bucket > 0:
             dialog = builder.get_object('dialog1')
@@ -167,7 +163,6 @@ class Handler:
         dialog = builder.get_object('dialog1')
         dialog.hide()
 
-        global select_bucket
         bucket = int(select_bucket.get_active_id())
         if bucket > 0:
             cursor.execute("DELETE FROM buckets WHERE id = ? ",(bucket,))
@@ -190,7 +185,6 @@ class Handler:
 
 
 def create_select_bucket():
-    global select_bucket
     select_bucket.remove_all()
     select_bucket.insert(0, "0", lang['select_bucket'])
 
